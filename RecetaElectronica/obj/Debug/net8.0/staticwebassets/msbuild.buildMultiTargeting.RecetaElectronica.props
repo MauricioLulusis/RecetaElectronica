@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\RecetaElectronica.props" />
+</Project>

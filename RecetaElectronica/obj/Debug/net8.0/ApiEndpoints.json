@@ -1,0 +1,153 @@
+[
+  {
+    "ContainingType": "RecetaElectronica.Controllers.MedicamentosController",
+    "Method": "GetAll",
+    "RelativePath": "api/Medicamentos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RecetaElectronica.Controllers.MedicosController",
+    "Method": "GetAll",
+    "RelativePath": "api/Medicos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RecetaElectronica.Controllers.MedicosController",
+    "Method": "GetById",
+    "RelativePath": "api/Medicos/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RecetaElectronica.Controllers.PacientesController",
+    "Method": "GetAll",
+    "RelativePath": "api/Pacientes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RecetaElectronica.Controllers.PacientesController",
+    "Method": "GetById",
+    "RelativePath": "api/Pacientes/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RecetaElectronica.Controllers.RecetasController",
+    "Method": "GetAll",
+    "RelativePath": "api/Recetas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RecetaElectronica.Controllers.RecetasController",
+    "Method": "GuardarReceta",
+    "RelativePath": "api/Recetas/guardar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pacienteId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "medicoId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "medicamentosIds",
+        "Type": "System.Int32[]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RecetaElectronica.Controllers.RecetasController",
+    "Method": "ValidarReceta",
+    "RelativePath": "api/Recetas/validar",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pacienteId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "cantidad",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RecetaElectronica.Controllers.RecetasController",
+    "Method": "VerRecetaHtml",
+    "RelativePath": "api/Recetas/ver-html/{recetaId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "recetaId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RecetaElectronica.Controllers.RecetasController",
+    "Method": "VerReceta",
+    "RelativePath": "api/Recetas/ver/{recetaId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "recetaId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

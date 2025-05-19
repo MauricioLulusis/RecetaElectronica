@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34616.47
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecetaElectronica", "RecetaElectronica\RecetaElectronica.csproj", "{300AFDF6-D7C0-4C5C-808A-EF9A5DDDBE75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestReceta", "TestReceta\TestReceta.csproj", "{FB8188EA-46D1-4DEC-86ED-AFEADD358D16}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{300AFDF6-D7C0-4C5C-808A-EF9A5DDDBE75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{300AFDF6-D7C0-4C5C-808A-EF9A5DDDBE75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{300AFDF6-D7C0-4C5C-808A-EF9A5DDDBE75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{300AFDF6-D7C0-4C5C-808A-EF9A5DDDBE75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB8188EA-46D1-4DEC-86ED-AFEADD358D16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB8188EA-46D1-4DEC-86ED-AFEADD358D16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB8188EA-46D1-4DEC-86ED-AFEADD358D16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB8188EA-46D1-4DEC-86ED-AFEADD358D16}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BB47F073-6958-4F77-88BE-BC2F0B9E267D}
+	EndGlobalSection
+EndGlobal
